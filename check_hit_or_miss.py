@@ -15,7 +15,7 @@ def check_hit(row: int, column: int, arena: list, who_shot: str):
             print("Don't shoot the same area twice!")
             return 
 
-        # Empty sqare
+        # Empty square
         arena[row][column] = 'O'
         if who_shot == "player":
             print("Result: You missed!")
