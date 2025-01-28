@@ -1,0 +1,9 @@
+arena_player = []
+arena_computer = []
+arena_computer_hidden = []
+keys = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J']
+rows = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+columns = {'A': 0, 'B': 1, 'C': 2, 'D': 3, 'E': 4, 'F': 5, 'G': 6, 'H': 7, 'I': 8, 'J': 9}
+coords = {0: 'A', 1: 'B', 2: 'C', 3: 'D', 4: 'E', 5: 'F', 6: 'G', 7: 'H', 8: 'I', 9: 'J'}
+ships = {'C':5, 'B': 4, 'R': 3, 'S': 3, 'D': 2}
+ship_names = {'C':'Carrier', 'B': 'Battleship', 'R': 'Cruiser', 'S': 'Submarine', 'D': 'Destroyer'}
